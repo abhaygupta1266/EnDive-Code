@@ -62,7 +62,7 @@ EnDive spans **12 NLP tasks** across four core reasoning categories:
 
 ## 🧠 Simplified Methodology
 
-We generate dialectal translations of SAE prompts using few-shot prompting with GPT-4o. To ensure quality, we apply BLEU score filtering and exclude examples with significant similarity (translations that get >0.7 BLEU score). Translations are further validated by native speakers for fluency and authenticity. We then evaluate seven large language models across 12 NLU tasks by comparing performance on SAE versus dialect variants.
+We generate dialectal translations of SAE prompts using few-shot prompting with GPT-4o. To ensure quality, we apply BLEU score filtering and exclude examples with significant similarity (translations that get >0.7 BLEU score). Translations are further validated by native speakers for fluency and authenticity. We then evaluate seven LLMs across 12 NLU tasks by comparing performance on SAE versus dialect variants.
 
 
 ---
