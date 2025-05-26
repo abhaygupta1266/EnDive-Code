@@ -1,7 +1,7 @@
 <div id="top">
 
 <p align="center">
-  <img src="https://endiveee.github.io/assets/logo.png" alt="EnDive Logo" width="40%" />
+  <img src="ChatGPT Image May 26, 2025, 02_49_32 PM.png" alt="EnDive Logo" width="40%" />
 </p>
 
 <p align="center">
