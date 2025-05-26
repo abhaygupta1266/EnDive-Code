@@ -26,7 +26,7 @@
 
 ## 📝 About
 
-**EnDive** (**En**glish **Div**ersity Evaluation) is a large-scale benchmark designed to evaluate the fairness and performance of large language models (LLMs) across underrepresented English dialects. Spanning five diverse dialects—African American Vernacular English (AAVE), Chicano English (ChcE), Colloquial Singapore English (CollSgE), Indian English (IndE), and Jamaican English (JamE)—EnDive features 60 dialect-specific datasets covering 12 NLU tasks.
+**EnDive** (**En**glish **Div**ersity) is a large-scale benchmark designed to evaluate the fairness and performance of large language models (LLMs) across underrepresented English dialects. Spanning five diverse dialects—African American Vernacular English (AAVE), Chicano English (ChcE), Colloquial Singapore English (CollSgE), Indian English (IndE), and Jamaican English (JamE)—EnDive features 60 dialect-specific datasets covering 12 NLU tasks.
 
 The benchmark captures how LLMs perform when prompts are written in different dialects rather than Standard American English (SAE). By comparing these dialect translations against SAE counterparts, EnDive identifies disparities in model accuracy, fluency, and robustness—highlighting critical issues of bias and inclusivity in today's AI systems.
 
