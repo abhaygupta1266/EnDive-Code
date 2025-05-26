@@ -26,7 +26,7 @@
 
 ## 📝 About
 
-**EnDive** (**En**glish **Div**ersity Evaluation) is a large-scale benchmark designed to evaluate the fairness and performance of large language models across underrepresented English dialects. Spanning five diverse dialects—AAVE, Chicano English, Colloquial Singapore English, Indian English, and Jamaican English—EnDive features 60 dialect-specific datasets covering 12 NLP tasks.
+**EnDive** (**En**glish **Div**ersity Evaluation) is a large-scale benchmark designed to evaluate the fairness and performance of large language models (LLMs) across underrepresented English dialects. Spanning five diverse dialects—African American Vernacular English (AAVE), Chicano English (ChcE), Colloquial Singapore English (CollSgE), Indian English (IndE), and Jamaican English (JamE)—EnDive features 60 dialect-specific datasets covering 12 NLU tasks.
 
 The benchmark captures how LLMs perform when prompts are written in different dialects rather than Standard American English (SAE). By comparing these dialect translations against SAE counterparts, EnDive identifies disparities in model accuracy, fluency, and robustness—highlighting critical issues of bias and inclusivity in today's AI systems.
 
@@ -34,7 +34,7 @@ The benchmark captures how LLMs perform when prompts are written in different di
 
 ## 📊 Performance Table
 
-This table illustrates how well different language models understand and respond to English dialects by comparing their accuracy on standard English (SAE) prompts versus dialect-specific prompts using Chain-of-Thought (CoT) reasoning. Each column represents a dialect—such as AAVE, JamE, or IndE—and each cell shows how a model’s performance changes when the same question is rephrased in that dialect. A significant drop in accuracy from SAE to CoT suggests the model struggles with that dialect, signaling potential bias and a lack of linguistic inclusivity. By highlighting these gaps, the table underscores the critical need to evaluate and improve AI fairness across diverse language varieties.
+This table illustrates how well different language models understand and respond to English dialects by comparing their accuracy on SAE prompts versus dialect-specific prompts using Chain-of-Thought (CoT) reasoning. Each column represents a dialect—such as AAVE, JamE, or IndE—and each cell shows how a model’s performance changes when the same question is rephrased in that dialect. A significant drop in accuracy from SAE to CoT suggests the model struggles with that dialect, signaling potential bias and a lack of linguistic inclusivity. By highlighting these gaps, the table underscores the critical need to evaluate and improve AI fairness across diverse language varieties.
 
 | Model              | AAVE (Δ) | ChcE (Δ) | CollSgE (Δ) | IndE (Δ) | JamE (Δ) |
 |--------------------|----------|----------|-------------|----------|----------|
@@ -62,7 +62,7 @@ EnDive spans **12 NLP tasks** across four core reasoning categories:
 
 ## 🧠 Simplified Methodology
 
-We generate dialectal translations of Standard American English (SAE) prompts using few-shot prompting with GPT-4o. To ensure quality, we apply BLEU score filtering and exclude examples with significant similarity (translations that get >0.7 BLEU score). Translations are further validated by native speakers for fluency and authenticity. We then evaluate seven large language models across 12 NLU tasks by comparing performance on SAE versus dialect variants.
+We generate dialectal translations of SAE prompts using few-shot prompting with GPT-4o. To ensure quality, we apply BLEU score filtering and exclude examples with significant similarity (translations that get >0.7 BLEU score). Translations are further validated by native speakers for fluency and authenticity. We then evaluate seven large language models across 12 NLU tasks by comparing performance on SAE versus dialect variants.
 
 
 ---
