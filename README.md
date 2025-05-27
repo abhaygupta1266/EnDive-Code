@@ -2,7 +2,7 @@
 
 <p align="center">
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="ChatGPT Image May 26, 2025, 02_49_32 PM.png" alt="EnDive Logo" width="22%" />
+  <img src="May 26, 2025, 02_49_32 PM.png" alt="EnDive Logo" width="22%" />
 </p>
 
 <p align="center"><em>Evaluating AI fairness across dialects of English.</em></p>
@@ -108,7 +108,7 @@ For questions or collaborations, feel free to email us at **abhaygupta1266@gmail
 
 <p align="center">
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="ChatGPT Image May 26, 2025, 02_49_32 PM.png" alt="EnDive Logo" width="22%" />
+  <img src="May 26, 2025, 02_49_32 PM.png" alt="EnDive Logo" width="22%" />
 </p>
 
 <p align="center"><em>Pushing AI fairness forward, across diverse English dialects.</em></p>
