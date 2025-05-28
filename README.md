@@ -8,7 +8,7 @@
 <p align="center"><em>Evaluating AI fairness across dialects of English.</em></p>
 
 <p align="center">
-  <a href="https://huggingface.co/EnDivee">
+  <a href="https://huggingface.co/abhaygupta1266">
     <img src="https://img.shields.io/badge/%F0%9F%91%80%20Dataset-HuggingFace-blue" />
   </a>
   <a href="https://arxiv.org/abs/2504.07100">
